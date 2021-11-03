@@ -1,0 +1,140 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.bg-multicolor {
+    background-image: linear-gradient(to right,rgb(5, 146, 202),rgb(5, 202, 159)) ;
+}
+.bg-grey {
+    background-color: rgb(227, 227, 227);
+}
+.bg-fff {
+    background-color: #fff;
+}
+.color-grey {
+    color: grey;
+}
+.bg-image {
+    background: url('./img/dom-dom_kursunu.jpg') no-repeat center;
+    background-size: cover;
+}
+.container {
+    width:600px;
+    height:800px;
+    margin:100px auto;
+    /* ? */
+}
+.flex {
+    display: flex;
+}
+.iblock {
+    display: inline-block;
+}
+.column {
+    flex-direction: column;
+}
+.between {
+    justify-content: space-between;
+}
+.ai-center {
+    align-items: center;
+}
+.jc-end {
+    justify-content: flex-end;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.z-2 {
+    z-index: 2;
+}
+.z-3 {
+    z-index: 3;
+}
+.top-30 {
+    top:30%;
+}
+.top-50 {
+    top:50%;
+}
+.left-50 {
+    left:50%;
+}
+.translate {
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.r-15 {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.r-5 {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.h-500 {
+    height: 500px;
+}
+.h-300 {
+    height: 300px;
+}
+.h-5 {
+    height: 5px;
+}
+.w-300 {
+    width: 300px;
+}
+.w-100 {
+    width: 100%;
+}
+.w-400 {
+    width: 400px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-4 {
+    margin-left: -4px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-60 {
+    font-size: 60px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.shadow {
+    box-shadow:10px 10px 30px 0 rgba(0, 0, 0, .6);
+}
+
